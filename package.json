@@ -1,0 +1,25 @@
+{
+  "name": "safely-convert-enum",
+  "version": "1.0.0",
+  "description": "Small TypeScript utility to convert between compatible enum values",
+  "main": "index.js",
+  "files": ["./index.ts", "./index.js"],
+  "scripts": {
+    "build": "tsc -p .",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maslade/ts-safely-convert-enum.git"
+  },
+  "keywords": ["typescript", "enum", "conversion"],
+  "author": "Mark Slade <markandrewslade@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maslade/ts-safely-convert-enum/issues"
+  },
+  "homepage": "https://github.com/maslade/ts-safely-convert-enum#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
